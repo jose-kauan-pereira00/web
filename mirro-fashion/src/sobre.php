@@ -4,32 +4,32 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sobre| MF</title>
-	<link rel="stylesheet" type="text/css" href="css/sobre.css">
+	<link rel="stylesheet" type="text/css" href="../css/sobre.css">
 </head>
 <body>
 
-	<img src="assets/img/logo.png">
+	<img src="../assets/img/logo.png">
 <!-- Pequeno Resumo-->
 	<h1>A Mirror Fashion</h1>
 	<p>	
 		A Mirror Fashion é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
-	Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
+	Fundada Há <?php print date("Y") - 1932; ?>, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
 	participação em 118 deles.</p>
 	<p>
 		Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho, no Paraná.</a>  De lá, saem 48 aviões que 
 	distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:</p>
 	<figure id = "centro-distribuicao">
-		<img src="assets/img/centro-distribuicao.png">
+		<img src="../assets/img/centro-distribuicao.png">
 		<figcaption>Imagem do Centro de distribuição</figcaption>
 	</figure>
 	<p>
-		Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href = "index.html" >nossa loja</a> ou entre em contato 
+		Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href = "../index.html" >nossa loja</a> ou entre em contato 
 	se tiver dúvidas. Conheça também nossa história e nossos diferenciais.</p>
 
 <!--Inicio da Parte De História da Família -->
 	<h2>História</h2>
 	<figure id = "familia-pelho">
-		<img src="assets/img/familia-pelho.jpg">
+		<img src="../assets/img/familia-pelho.jpg">
 		<figcaption>Imagem da Família pelho</figcaption>
 	</figure>
 	<p>
@@ -68,7 +68,7 @@
 	</ul>
 <!--Elementos do Rodapé-->
 	<div id = "rodape">
-		<img src="assets/img/logo.png">
+		<img src="../assets/img/logo.png">
 
 		&copy; Copyright Mirror Fashion
 	</div>
